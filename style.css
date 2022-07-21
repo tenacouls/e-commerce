@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
+/* Normalize */
 body{
     margin: 0;
     padding: 0;
@@ -7,6 +7,13 @@ body{
 }
 ul{
     display: flex;
+}
+.img-deliver{
+    scale: 1.5;
+    
+}
+.section-p1{
+    padding: 40px 80px;
 }
 /* Header */
 .header{
@@ -16,6 +23,10 @@ ul{
     padding: 20px 80px;
     background-color: #3C3C3C;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .nav-bar{
     display: flex;
@@ -41,4 +52,73 @@ ul{
 .nav-bar li a.active{
     color: #EFE372;
 }
+/* Main Section */
+.hero{
+    color: #fff;
+    background-image:url(src/main-background.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.btn-shop{
+    background-color: #EFE372;
+    border: 0px;
+    border-radius: 15px;
+    padding: 14px 80px;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+}
 
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 32px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    background-color: #3C3C3C;
+    color: #fff;
+    
+}
+
+/*  */
+/* Titles */
+
+/*h6*/
+.mini-title{
+    font-size: 20px;
+}
+
+/*h4*/
+.small-title{
+    font-size: 30px;
+    margin:0;
+    padding-bottom: 15px;
+}
+/*h2*/
+.normal-title{
+    font-size: 50px;
+    margin:0;
+    padding: 0;
+}
+/*h1*/
+.large-title{
+    font-size: 50px;
+    margin:0;
+    padding: 0;
+    padding-bottom: 5px;
+    color: #EFE372;
+}
+/*paragraph*/
+.text{
+    font-size: 20px;
+    font-weight: 300;
+    margin:5px;
+    padding-bottom: 30px;
+}
