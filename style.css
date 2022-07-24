@@ -57,7 +57,7 @@ ul{
     color: #fff;
     background-image:url(src/main-background.jpg);
     height: 90vh;
-    width: 100%;
+    width: 1920;
     background-size: cover;
     background-position: top 25% right 0;
     padding: 0 80px;
@@ -76,15 +76,37 @@ ul{
     cursor: pointer;
 }
 
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
 #feature .fe-box{
     width: 180px;
     text-align: center;
-    padding: 25px 15px;
+    padding: 25px 35px;
     box-shadow: 20px 20px 32px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
     background-color: #3C3C3C;
     color: #fff;
     
+}
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #27ae60;
+}
+
+#feature img{
+   width: 10vh;
+   height: 50%;
+   padding: 15px;
 }
 
 /*  */
