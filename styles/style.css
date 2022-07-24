@@ -55,7 +55,7 @@ ul{
 /* Main Section */
 .hero{
     color: #fff;
-    background-image:url(src/main-background.jpg);
+    background-image:url(/TestShopIdit/src/main-background.jpg);
     height: 90vh;
     width: 1920;
     background-size: cover;
